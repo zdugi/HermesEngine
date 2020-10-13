@@ -1,0 +1,17 @@
+params:
+  linksQueueMax: 10000
+  requestsPause: 0.5
+  requestMaxTime: 4
+  threshHold: 0.035
+  sitesLogFile: '../sites.txt'
+startPool:
+  - 'https://nav.al/'
+  - 'http://justonething.blogspot.com/'
+  - 'http://blog.practical-scheme.net/shiro'
+  - 'http://www.paulgraham.com'
+  - 'http://ranprieur.com'
+  - 'http://www.norvig.com/'
+  - 'https://martinfowler.com/'
+workers:
+  page: 2
+  collector: 4
